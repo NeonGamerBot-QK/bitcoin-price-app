@@ -1,0 +1,26 @@
+{
+  "name": "bitcoin-price",
+  "version": "1.0.0",
+  "description": "A minimal Electron application",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build:source": "electron-packager . --all --out dist",
+    "build:exe": "node exe.js"
+  },
+  "repository": "https://github.com/electron/electron-quick-start",
+  "keywords": [
+    "Electron",
+    "quick",
+    "start",
+    "tutorial",
+    "demo"
+  ],
+  "author": "GitHub",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "^16.0.4",
+    "electron-packager": "^15.4.0",
+    "electron-winstaller": "^5.0.0"
+  }
+}
