@@ -8,7 +8,8 @@ function reload() {
 
    // if(json.image.thumb) document.getElementById('thumbnail').src = json.image.large
     if(json.bitcoin) {
-        document.getElementById('price').innerHTML = Number(`${json.bitcoin.usd}`).toLocaleString()
+      // format the price in USD
+        document.getElementById('price').innerHTML = Number(`${json.bitcoin.usd}`).toLocale
       }
     })
 }
